@@ -1,32 +1,37 @@
-.App {
-  text-align: center;
+
+body{
+  background-color: lightgray;
+}
+.form-container{
+  margin-top: 40px;
+  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.card{
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0  rgba(0,0,0,0.19);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card-img-top{
+  border-radius: 10%;
+  padding: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.recipe_container{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rank_card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rank{
+  background-color:lightblue;
+  font-weight: 500;
+  color: red;
+  padding: 10px;
 }
