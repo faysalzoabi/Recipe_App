@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import { connect } from 'react-redux';
 import {Link} from 'react-router-dom';
-
+import Header from './Header';
 export class Recipe extends Component {
   state = {
     recipe:{}
@@ -19,7 +19,8 @@ export class Recipe extends Component {
   render() {
     const { recipe } = this.state
     return (
-      
+       <div>
+           <Header/>
         <div className="container recipe_container">
           <div className="row">
               <div className="col-md-6">
@@ -71,6 +72,7 @@ export class Recipe extends Component {
             </div>
             <hr/>
           </div>
+    </div>
      )
   }
 }
