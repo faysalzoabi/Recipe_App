@@ -13,5 +13,5 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### `deployment URL`
-Open https://faysalzoabi.github.io/Recipe_App/
+Open https://react-recipe-app.netlify.com/
 
